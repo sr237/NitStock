@@ -2,12 +2,12 @@
 
 A small React and Express app for browsing the stock market database, customers, portfolios, and reports. It uses the existing MySQL schema in `create.sql`; no schema changes are needed.
 
-# Database setup
+## Database setup
 
 1. Install and start MySQL Server.
 2. Open `create.sql` in MySQL Workbench or run it from the MySQL command line. It creates and seeds the `STOCK_MARKET` database. The script starts with `DROP TABLE` statements, so use it only when you are comfortable recreating the project tables and seed data.
 
-# Run the server
+## Run the server
 
 ```powershell
 cd server
